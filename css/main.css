@@ -59,7 +59,7 @@ body {
   position: absolute;
   bottom: 1em;
   right: 1em;
-  width: 60%;
+  max-width: 20em;
   background-color: rgba(0, 0, 0, .3);
   color: #fff;
   border-radius: 4px;
@@ -72,10 +72,6 @@ body {
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-
-  .content {
-    width: 40%
   }
 
 }
